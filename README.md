@@ -68,4 +68,9 @@ An underlying is a security/commodity to be bought or sold under the terms of th
 
 #### Contract Multiplier
 
-Purchasing options on exchange-traded products have a specific quantity of underlying per contract.
+Purchasing options on exchange-traded products have a specific quantity of underlying per contract. In other words, an exchange-traded option has a number of underlying that the contract controls, and this is termed the **contract multiplier**.
+
+### Strike Price & Expiration Date
+
+1. **Strike/Exercise Price**: The price at which the underlying will be delivered, should the holder of an option choose the exercise his right to buy/sell.
+2. **Expiration Date**: The date on which the owner of an option must make final decision to buy, in case of a call, or sell in case of a put.

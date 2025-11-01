@@ -16,29 +16,17 @@ An option is a contract which gives the buyer the right, but not the obligation,
 
 Imagine we want to buy a house, and the seller want $500,000 AUD. As a buyer we have the following options:
 
-1. **Spot/Cash Transaction**
-
-Agree on terms and exchange money for goods.
-
-2. **Forward Contract**
-
-An agreement to buy the house in 1 year for $500,000
-
-3. **Option Contract**
-
-The option to buy the house in 1 year for $500,000. Will have to pay $20,000 now for the contract.
+1. **Spot/Cash Transaction**: Agree on terms and exchange money for goods.
+2. **Forward Contract**: An agreement to buy the house in 1 year for $500,000
+3. **Option Contract**: The option to buy the house in 1 year for $500,000. Will have to pay $20,000 now for the contract.
 
 #### Why do you want to use Options?
 
-1. **Hedge Risk**
-
-If you have purchased 100 BHP shares today, how do you protect yourself against potential losses.
+1. **Hedge Risk**: If you have purchased 100 BHP shares today, how do you protect yourself against potential losses.
 
 ![alt text](image.png)
 
-2. **Speculation**
-
-Bet on market moves in direaction or volatility.
+2. **Speculation**: Bet on market moves in direaction or volatility.
 
 ### Contracts & Terms
 
@@ -51,3 +39,33 @@ An option is like an insurance product. The option contract terms are the follow
 5. **Contract Type (Calls or Puts)**: For a call, we buy the product at a given exercise price. For puts, we sell the product at a given exercise price.
 
 ### Option: Call Vs. Put
+
+#### Option Call
+
+It is the right to buy, not an obligation, the underlying asset at specified price at a time in the future. So ideally, if the price has gone up at the time we reach the defined time step from initial price, we could realize our option to buy. If the price has gone down, we can just let the option expire.
+
+#### Option Put
+
+It is the right to sell at a given price and a given time in the future, not an obligation to exercise this. So for example, if we buy an put option to sell the underlying asset at $40, and at the expiration date the underlying asset is valued at $30, we gain $10 as we sell for a higher value compared to the current market value.
+
+#### Trading - Buying & Selling
+
+In the image, we see different strategies for trading, if we either decide to **Buy First**, we open a long position, or we **Sell First**, we open a short position.
+
+![alt text](image-1.png)
+
+If we buy a **call option**, then we are hoping that the underlying asset will increase in value so that we can buy the underlying asset at a discount (the strike price being below the current share price). On the flip side, the person who has sold the call option, is hoping that they do not need to pay out on this position, i.e., the Share Price minus the Strike Price (S-K).
+
+Now for a **put option**, the buyer is hoping that the share price will go down so that they can sell at a greater value. The person who sold the put, they would need to pay out the difference between the strike price and the current price of the underlying asset (K-S).
+
+### Underlying & Contract Multiplier
+
+An underlying is a security/commodity to be bought or sold under the terms of the contract. Examples of an options underlying asset:
+
+1. **Shares**
+2. **Futures (Future Contracts)**: These could be quartelry options, yielding their underlying Quarterly Futures.
+3. **Anything**: Example of this could be a House.
+
+#### Contract Multiplier
+
+Purchasing options on exchange-traded products have a specific quantity of underlying per contract.

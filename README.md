@@ -88,3 +88,11 @@ The **Intrinsic Value** is based of the price right now, i.e., the amount of val
 Whereas, the **Time Value** is the price uncertainty, i.e., the amount of possible future value of the underlying asset. The Time Value incorporates the future uncertainty and volatility of the underlying asset. We can see below how we calculate the Intrinsic Value & Time Value based on a premium:
 
 ![alt text](image-2.png)
+
+### Option Settlement & Exercise Style
+
+For a call, if the buyer decides to exercise the call option at the Strike Price which they have purchased, the original seller of the option is **Assigned the call**, and is required to sell the underlying asset at the defined Strike Price. If the buyer does not decide to exercise the call option, the seller keeps the premium which was paid initially to get the call option.
+
+#### Exercise Style
+
+A **European Contract** can only be exercised at the Expiration date set in the contract. Whereas, an **American Contract** can be exercised anytime between now and the Expiration date.

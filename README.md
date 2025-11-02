@@ -24,7 +24,7 @@ Imagine we want to buy a house, and the seller want $500,000 AUD. As a buyer we 
 
 1. **Hedge Risk**: If you have purchased 100 BHP shares today, how do you protect yourself against potential losses.
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 2. **Speculation**: Bet on market moves in direaction or volatility.
 

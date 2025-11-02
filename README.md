@@ -96,3 +96,26 @@ For a call, if the buyer decides to exercise the call option at the Strike Price
 #### Exercise Style
 
 A **European Contract** can only be exercised at the Expiration date set in the contract. Whereas, an **American Contract** can be exercised anytime between now and the Expiration date.
+
+## How to Value Options using the Black-Scholes PDE
+
+#### Assumptions
+
+The following assumptions also form what we call the **Ideal Market Condition**.
+
+1. **Short Term Interest Rates are Constant**
+2. **Stocks Pay No Dividends**
+3. **No Transaction Costs** (i.e., like brokerage)
+4. **Can Borrow a Fraction of the Stock**
+5. **Short Selling Allowned**
+
+#### Method Overview
+
+1. Price Derivative using Replication.
+2. Construct Risk Free Portfolio.
+3. $C_t = C(S, t)$ is a Smooth Function for all $C$. We can then use Ito's rule to express portfolio drift as $C$'s partial derivatives.
+4. Find $C(S, t)$ that satisfies the PDE.
+
+The **Geometric Brownian Motion (GBM)** has a drift term ($dt$) and a diffusion term ($dW_t$).
+
+![alt text](image-3.png)

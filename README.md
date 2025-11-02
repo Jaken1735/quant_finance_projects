@@ -52,7 +52,7 @@ It is the right to sell at a given price and a given time in the future, not an 
 
 In the image, we see different strategies for trading, if we either decide to **Buy First**, we open a long position, or we **Sell First**, we open a short position.
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 If we buy a **call option**, then we are hoping that the underlying asset will increase in value so that we can buy the underlying asset at a discount (the strike price being below the current share price). On the flip side, the person who has sold the call option, is hoping that they do not need to pay out on this position, i.e., the Share Price minus the Strike Price (S-K).
 
@@ -87,7 +87,7 @@ The **Intrinsic Value** is based of the price right now, i.e., the amount of val
 
 Whereas, the **Time Value** is the price uncertainty, i.e., the amount of possible future value of the underlying asset. The Time Value incorporates the future uncertainty and volatility of the underlying asset. We can see below how we calculate the Intrinsic Value & Time Value based on a premium:
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 ### Option Settlement & Exercise Style
 
@@ -118,4 +118,4 @@ The following assumptions also form what we call the **Ideal Market Condition**.
 
 The **Geometric Brownian Motion (GBM)** has a drift term ($dt$) and a diffusion term ($dW_t$).
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)

@@ -74,3 +74,17 @@ Purchasing options on exchange-traded products have a specific quantity of under
 
 1. **Strike/Exercise Price**: The price at which the underlying will be delivered, should the holder of an option choose the exercise his right to buy/sell.
 2. **Expiration Date**: The date on which the owner of an option must make final decision to buy, in case of a call, or sell in case of a put.
+
+### Options Premium
+
+Optiums premium is based of Supply & Demand, i.e., the price at which a willing buyer and sellet transact an options contract.
+
+There are **two main components** of options premium:
+
+$Premium = Intrinsic Value + Time Value$
+
+The **Intrinsic Value** is based of the price right now, i.e., the amount of value in the optionality right now (as if you exercised the option today).
+
+Whereas, the **Time Value** is the price uncertainty, i.e., the amount of possible future value of the underlying asset. The Time Value incorporates the future uncertainty and volatility of the underlying asset. We can see below how we calculate the Intrinsic Value & Time Value based on a premium:
+
+![alt text](image-2.png)
